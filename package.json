@@ -4,6 +4,7 @@
   "description": "A recipe blog website where you can create an account, upload, like, and comment on recipes!",
   "main": "index.js",
   "scripts": {
+    "start": "node server/server.js",
     "develop": "concurrently \"cd frontend && npm start\" \"cd backend && npm start\"",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
